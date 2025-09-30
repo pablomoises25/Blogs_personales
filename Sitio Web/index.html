@@ -1,47 +1,87 @@
-<!DOCTYPE html> <!--Indica que el documento está escrito en HTML5 -->
-<HTML lang="es"> <!-- Define el idioma principal de la página como español -->
-<head> <!-- Contiene metadatos e información de la página -->
-    <meta charset="UTF-8"> <!--Codificación de caracteres (UTF-8 admite acentos símbolos 
-especiales) -->
-    <title>Mi Primera Página Semántica</title> <!-- Título que aparece en la pestaña del 
-navegador -->
-</head>
-<body> <!--Contenido visible de la página -->
+<!DOCTYPE html> <!-- Indica que el documento esta escrito en HTML5-->
+<HTML lang="es"> <!--Define el idioma principal de la página como español-->
+<head> <!--Contiene métodos e información de la página-->
+     <meta charset="UTF-8"> <!--Codificación de caracteres (UTF-8 admite acentos y símbolos especiales)-->
+     <title>Mi Primera Página Semántica</title> <!--Título que aparece en la pestaña del navegador-->
+ </head>
+ <style>
+    *{
+        box-sizing: border-box;
+    }
+    .header{
+        background-color: rgb(110, 152, 236);
+        height: 66px;
+        width: 100%;
+        margin: 0px;
+    }
 
-    <header> <!-- Encabezado del sitio (logo, título, menú) -->
-        <h1>Mi Blog Personal</h1> <!--Título principal de la página -->
-        <nav> <!-- Sección de navegación --> 
-            <u1> <!-- Lista desordenada para organizar enlaces -->
-                <li><a href="Inicio.html">Inicio</a></li> <!-- Elemento de lista con enlace a "Inicio" -->
+ </style>
+ <div class="header"></div>
+<body > <!-- Contenido visible de la página -->
 
-                <li><a href="Acercademi.html">Acerca de mi</a></li> <!-- Elemento de lista con enlace a "Acerca de mí" -->
+     <header> <!--Encabezado del sitio (logo, título, menú)-->
+         
+         <h1 style="font-size: 80px; text-align: center;"> Mi Blog Personal</h1> <!-- Título principal de la página-->
+         <h2 style=" text-align: center;">!Bienvenidos!</h2> <!--Subtitulo de segundo nivel-->
+         <nav style="text-align: center;"> <!--Sección de navegación-->
+             <ul style="font-size: 30px; text-align: center;"> <!--Lista desordenada para organizar enlaces-->
 
-                <li><a href="Contacto.html">Contacto</a></li> <!-- Elemento de lista con enlace a "Contacto" -->
-            </u1> <!--Cierre de la lista -->
-        </nav> <!-- Cierre de navegación -->
-    </header> <!-- Cierre del encabezado -->
-    <style>
-    body{ background-color: pink;
+                 <a href="inicio.html">Inicio</a><br><!--Elemento de lista con enlace a "Inicio"-->
+
+                 <a href="acercademi.html">Acerca de mi</a><br><!--Elemento con lista de enlace a "Acerca de mí"-->
+  
+                 <a href="contacto.html">Contacto</a><br><!--Elemento de lista con enlace a "Contacto"-->
+             </ul> <!--Cierre de la lista -->
+         </nav> <!--Cierre de navegación-->
+         <img src="minipablo2.png" width= "400" style="display: block; margin: auto;" height=auto  alt="Imagen mia" title="Pablo Moises Zuñiga Cruz">
+          <style type="text/css">
+            
+         img {
+            display: block;
+            margin: 0;
+            border-radius:  15px;
+            border-color: darkslategrey;
+            border-style:solid;
+            border-width: 8px;
+            box-shadow: 7px 7px 7px rgb(69, 188, 239);
+         }
+          </style>
+          
+      </header> <!--Cierre del encabezado-->
+       
+      <main> <!--Contenido principal de la página-->
+         
+          <h3 style="text-align: center;">¿QUÉ ME GUSTA?</H3>
+            
+          <P style="text-align: center;">Me facina el idioma inglés,
+             me gusta la comida china,
+             me gusta el sushi,
+             me gusta compartir tiempo con mis amigos,
+             me gusta la actuación y el teatro.</p>
+          <p style="text-align: center;">Este es el contenido principal de mi página. !Aquí encontrarás mis ultimas
+ publicaciones! </p> <!--Párrafo de texto-->
+  <style>
+            body{
+                 background-color: rgb(195, 225, 242);
+                 height: 100%;
+                 padding:0px;
+                 margin: 0px;
+                }
+         </style>
+         
+
+      </main> <!--Cierre del contenido principal-->
+
+      <footer> <!--Pie de página-->
+           <p style="text-align: center;">&copy; 2025 Mi Blog Personal. Todos los derechos reservados.</p> <!--Texto de derechos de autor-->
+       <style>
+           .footer{
+        background-color: rgb(81, 150, 230);
+        height: 66px;
+        width: 100%;
+        margin: 0px;
     }
     </style>
-
-
-    <main> <!--Contenido principal de la pagina -->
-        <p>¡CONOCE MÁS SOBRE MI!</p> 
-           <img src="C:\Users\Valer\OneDrive\Imágenes\WIN_20250401_08_52_35_Pro.jpg" width="300" height="200" title="Valeria en la Actualidad">
-            <style type="text/css">
-       img{border-radius: 12px;
-        border-color:white;
-        border-style: solid;
-        border-width: 9px;
-        box-shadow: 5px 6px 7px 0px grey;}
-        </style>
-
-        <p>Este es el contenido principal de mi página. ¡Aquí encontrarás mis últimas 
-publicaciones!</p> <!-- Párrafo de texto -->
-            </main> <!-- Cierre del contenido principal -->
-     
-    <footer> <!-- Pie de página -->
-        <p>&copy; 2025 Mi Blog Personal. Todos los derechos reservados.</p> <!-- Texto de 
-derechos de autor -->
-    </footer> <!Cierre de pie de página-->
+           <div class="footer"></div>
+        </footer> <!--Cierre del pie de página -->
+</body>
